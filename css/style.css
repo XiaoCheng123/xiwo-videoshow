@@ -15,9 +15,12 @@ html {overflow-y: scroll;}
 .clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
 .clearfix { *zoom:1; }
 
+body {
+    min-width: 1100px;
+}
+
 #content {
     width: 100%;
-    overflow: hidden;
 }
 
 .section-one {
@@ -184,12 +187,42 @@ html {overflow-y: scroll;}
     color: #666;
 }
 
+.same {
+    font-size: 14px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #464646;
+}
 
+.same a {
+    color: #3BAAF0;
+    text-decoration: none;
+}
 
 .section-five {
     width: 100%;
     height: 1001px;
+    text-align: center;
 }
+
+.section-five h1 {
+    padding-top: 100px;
+    min-width: 384px;
+    font-size: 48px;
+    color: #464646;
+}
+
+.section-five img {
+    padding-top: 60px;
+}
+
+.section-five h6 {
+    line-height: 36px;
+    font-size: 20px;
+    padding-top: 30px;
+    color: #666;
+}
+
 
 .section-six {
     width: 100%;
