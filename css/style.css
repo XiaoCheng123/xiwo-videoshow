@@ -229,3 +229,38 @@ body {
     height: 193px;;
     background-color: #F8F8F8;
 }
+
+#footer {
+    width: 100%;
+    font-size: 14px;
+    background: #F4F4F4;
+    border-top: 1px solid #e0e5e7;
+}
+
+#footer >div {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 60px;
+}
+
+.footer-left,
+.footer-right {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    vertical-align: middle;
+}
+
+.footer-left a {
+    padding-right: 30px;
+    color: #555;
+    text-decoration: none;
+}
+
+.footer-right {
+    right: 0;
+    font-size: 11px;
+    color: #AAA;
+}
